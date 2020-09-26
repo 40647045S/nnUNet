@@ -12,7 +12,7 @@ export nnUNet_raw_data_base=${PWD}/nnUNet/nnUNet_raw
 export nnUNet_preprocessed=${PWD}/nnUNet/nnUNet_preprocessed  
 export RESULTS_FOLDER=${PWD}/nnUNet/nnUNet_trained_models  
   
-nnUNet_plan_and_preprocess -t Task101_BrainTS --verify_dataset_integrity  
+nnUNet_plan_and_preprocess -t 101 --verify_dataset_integrity  
   
 3.進行訓練  
   
