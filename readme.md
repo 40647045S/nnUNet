@@ -20,7 +20,7 @@ CUDA_VISIBLE_DEVICES=X nnUNet_train 3d_lowres my_trainer Task101_BrainTS 0
 CUDA_VISIBLE_DEVICES=X nnUNet_train 3d_lowres my_trainer Task101_BrainTS 1  
 CUDA_VISIBLE_DEVICES=X nnUNet_train 3d_lowres my_trainer Task101_BrainTS 2  
 CUDA_VISIBLE_DEVICES=X nnUNet_train 3d_lowres my_trainer Task101_BrainTS 3  
-（CUDA_VISIBLE_DEVICES=X中的X是想使用的gpu編號）  
+（CUDA_VISIBLE_DEVICES=X中的X是想使用的gpu編號，可以開多個terminal然後用不同的GPU跑就可以平行加速了）  
   
 4.進行預測  
   
