@@ -53,7 +53,7 @@ for index, sample in enumerate(tqdm(train_data), start=1):
     copyfile(sample['image'], join(nnu_image_dir, image_filename))
     copyfile(sample['label'], join(nnu_label_dir, label_filename))
     
-    training_files.append({'image': join(nnu_image_dir, image_filename),
+    training_files.append({'image': join(nnu_image_dir, label_filename),
                            'label': join(nnu_label_dir, label_filename)})
 
 test_data = []
